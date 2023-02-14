@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #FAF5FF;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: #383E71;
+}
+
+#formulario-index{
+  
+  position: absolute;
+width: 256px;
+height: 495px;
+left: 877px;
+top: 136px;
+
+}
+
+#direita-img{
+  background: linear-gradient(180deg, #510bab 0%, rgba(105, 57, 153, 0) 100%);
+}
+
+#frase{
+  font-weight: 600;
+  font-size: 16px;
+  color: #989FDB;
+}
+
+#titulo-acima{
+  padding-bottom: 0;
+}
+
+.login-form{
+  padding-top: 30px;
+}
+
+#rodape-form{
+  padding-top: 30px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 8px;
+}
+
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 10px 0;
+  color: #989FDB;
+  border: 1px solid #989FDB;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+#email{
+  color: #383E71;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+#senha{
+  color: #383E71;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.btn-login{
+  width: 256px;
+  height: 48px;
+  
+
+  background: linear-gradient(267.79deg, #383E71 0%, #9D25B0 99.18%);
+  box-shadow: 0px 10px 25px #CF99DB;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: transparent;
+
+}
+
+a{
+  color: #9626AC;
+}
